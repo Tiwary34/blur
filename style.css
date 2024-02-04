@@ -1,0 +1,34 @@
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100dvh;
+    background: #000;
+  }
+  .box{
+    width:75rem;
+    height:7rem;
+    background: dodgerblue;
+    color:ghostwhite;
+    text-transform:uppercase;
+    font:bold 4rem sans-serif;
+    filter:blur(30px);
+    transition:all .5s linear;
+    border-radius:1rem;
+    text-shadow:8px 8px 10px rgb(0,0,0,.5);
+  }
+  .box:hover{
+    filter:blur(0px);
+    box-shadow:10px 10px 25px rgb(255,255,255,.3);
+  }
+  .box:active{
+    filter:blur(0px);
+    box-shadow:0px 0px 0px transparent;
+    border-radius:0px;
+    text-shadow:8px 8px 0px rgb(0,0,0,.7);
+  }
+  .cen{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
